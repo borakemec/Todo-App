@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="form-container">
+        <div class="todo-form">
+            <p class="add-todo-header">Add Todo<span class="close-button">x</span></p>
+
+            <p class="add-todo-title">Title:</p>
+            <input class="add-todo-title-input" type="text">
+
+            <p class="add-todo-desc">Description:</p>
+            <input class="add-todo-desc-input" type="text">
+
+            <p class="add-todo-due">Due Date:</p>
+            <input class="add-todo-due-input" type="date">
+
+            <p class="add-todo-prio">Priority:</p>
+            <input class="add-todo-prio-input" type="number" max="3" min="1">
+
+            <p class="add-todo-done">Is This Todo Done? :</p>
+            <input class="add-todo-done-input" type="checkbox">
+
+            <div class="add-todo-submit">Add</div>
+
+        </div>
+    </div>
+
+    <div class="top-container">
+        <h1 class="todo-title">TODO List</h1>
+    </div>
+
+    <div class="bottom-container">
+        <div class="left-container">
+            <p class="projects-header">Projects</p>
+            <div class="add-input">
+                <div class="add-project">Add</div>
+                <input type="text" class="project-textbox">
+            </div>
+            <div class="project-names"></div>
+        </div>
+
+        <div class="main-container">
+
+        </div>
+    </div>
+
+</body>
+</html>
