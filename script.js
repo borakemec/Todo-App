@@ -187,9 +187,9 @@ function initPage() {
     if (storedProjects === null) {
         const firstProject = new Project('First', []);
 
-        const todoOne = new Todo('Bir', 'Aciklama', '07/25/2024', '2', false);
-        const todoTwo = new Todo('Iki', 'Aciklama iki', '07/20/2024', '3', false);
-        const todoThree = new Todo('Uc', 'Aciklama Uc', '08/11/2024', '1', true);
+        const todoOne = new Todo('One', 'Desc one', '07/25/2024', '2', false);
+        const todoTwo = new Todo('Two', 'Desc two', '07/20/2024', '3', false);
+        const todoThree = new Todo('Three', 'Desc three (done)', '08/11/2024', '1', true);
 
         firstProject.addTodo(todoOne);
         firstProject.addTodo(todoTwo);
